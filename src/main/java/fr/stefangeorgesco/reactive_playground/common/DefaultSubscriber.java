@@ -22,16 +22,16 @@ public class DefaultSubscriber<T> implements Subscriber<T> {
 
     @Override
     public void onNext(T item) {
-        logger.info("{} received {}", this.name, item);
+        logger.info("{} received: {}", this.name, item);
     }
 
     @Override
     public void onError(Throwable throwable) {
-        logger.error("{} received error", this.name, throwable);
+        logger.error("{} received error:", this.name, throwable);
     }
 
     @Override
     public void onComplete() {
-        logger.info("{} received completed!", this.name);
+        logger.info("{} received completion signal", this.name);
     }
 }

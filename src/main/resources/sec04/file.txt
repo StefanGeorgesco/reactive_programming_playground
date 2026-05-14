@@ -1,0 +1,6 @@
+This is a file.
+It contains some text.
+It is a multi-line file.
+On that line, there is a URL: https://www.google.com
+On that one, there is a phone number: +1 555 555 5555
+And so on.
